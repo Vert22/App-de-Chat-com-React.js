@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   flex: 1;
-  background-color: #efeae2;
+  background-color: rgb(50, 50, 50);
   overflow-y: auto;
 
   &::-webkit-scrollbar {
