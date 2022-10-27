@@ -10,8 +10,8 @@ export const Container = styled.div`
   box-shadow: 2px 1px 3px 1px #0003;
 
   svg {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     color: #54656f;
   }
 `;

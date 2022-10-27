@@ -15,8 +15,8 @@ const ChatFooter = ({ chatId }) => {
     db.collection("chats").doc(chatId).collection("messages").add({
       message: message,
       user: user.email,
-      photoURL: user.photoURL,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+      photoURL: user.photoURL,
     });
 
     setMessage("");

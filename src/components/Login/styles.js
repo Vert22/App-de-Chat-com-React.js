@@ -13,5 +13,4 @@ export const Button = styled.button`
   font-size: 18px;
   padding: 14px 18px;
   cursor: pointer;
-  color: aqua;
 `;

@@ -32,9 +32,9 @@ export const Name = styled.span`
 `;
 
 export const Avatar = styled.img`
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 5px;
   min-width: fit-content;
 `;

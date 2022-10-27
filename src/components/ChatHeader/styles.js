@@ -30,14 +30,14 @@ export const NameContent = styled.div`
 `;
 
 export const Name = styled.span`
-  font-size: 18px;
+  font-size: 13px;
   overflow: hidden;
   text-overflow: ellipsis;
 `;
 
 export const Avatar = styled.img`
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   margin-right: 10px;
   min-width: fit-content;
